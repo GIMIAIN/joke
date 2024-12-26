@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
 
             // Проверяем, что введены корректные значения
             if (nStr.isEmpty() || aStr.isEmpty()) {
-                Toast.makeText(this, "Пожалуйста, введите n и a", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Пожалуйста, введите n и a.", Toast.LENGTH_SHORT).show()
                 return@setOnClickListener
             }
 
